@@ -517,7 +517,8 @@ h3 span {
 
 .list_contact {
     font-size: 20px;
-    text-align: left
+    text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .list_contact li {
