@@ -89,13 +89,17 @@ nav:after {
     width: 1000px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
 }
 
 .pc_gnavi > li {
-    float: left;
+    display: flex;
     padding: 15px 0;
     position: relative;
     z-index: 1;
+    width: calc(100% / 5);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: center;
 }
 
 .pc_gnavi > li:after {
@@ -123,17 +127,17 @@ nav a {
     color: #fff;
     font-size: 20px;
     text-align: center;
-    padding: 10px 55px;
+    padding: 10px 0;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    
 }
 
 .pc_gnavi > li > ul {
     display: none;
     position: absolute;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 59px;
     transition: all 0.4s ease
 }
 
